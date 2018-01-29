@@ -1,0 +1,102 @@
+$date
+	Sun Jan 28 14:59:01 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module full_adder_testbench $end
+$var wire 1 ! w_carry $end
+$var wire 1 " w_sum $end
+$var reg 1 # r_bit1 $end
+$var reg 1 $ r_bit2 $end
+$var reg 1 % r_bit3 $end
+$scope module full_adder_instance $end
+$var wire 1 & HA1_cout $end
+$var wire 1 ' HA1_sout $end
+$var wire 1 ( HA2_cout $end
+$var wire 1 ) i1 $end
+$var wire 1 * i2 $end
+$var wire 1 + i3 $end
+$var wire 1 " sum $end
+$var reg 1 , carry $end
+$scope module half_adder1 $end
+$var wire 1 ) i1 $end
+$var wire 1 * i2 $end
+$var reg 1 - carry $end
+$var reg 1 . sum $end
+$upscope $end
+$scope module half_adder2 $end
+$var wire 1 ' i1 $end
+$var wire 1 + i2 $end
+$var reg 1 / carry $end
+$var reg 1 0 sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+00
+0/
+0.
+0-
+x,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+x!
+$end
+#10
+10
+1"
+1.
+1'
+0,
+0!
+1#
+1)
+#20
+0.
+0'
+1%
+1+
+0#
+0)
+#30
+00
+0"
+1/
+1(
+1.
+1'
+1$
+1*
+#40
+1,
+1!
+0$
+0*
+1#
+1)
+#50
+10
+1"
+0/
+0(
+0.
+0'
+1-
+1&
+1$
+1*
+#60
