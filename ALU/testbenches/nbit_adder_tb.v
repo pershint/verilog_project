@@ -7,7 +7,7 @@
 
 module full_adder_testbench;
 
-    parameter BITS=32;
+    parameter BITS=16;
     reg [BITS-1:0]r_word1 = 0;
     reg [BITS-1:0]r_word2 = 0;
     
@@ -31,5 +31,6 @@ module full_adder_testbench;
             #10;
             $finish;
         end
+
 endmodule
 

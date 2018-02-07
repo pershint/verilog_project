@@ -37,7 +37,7 @@ HA half_adder2(
 //assign sum = a ^ b;
 
 
-always @ (i1 or i2 or i3)
+always @ (*) //Changes anytime one of it's inputs change
 begin
     carry = HA1_cout | HA2_cout; //bitwise OR
 end

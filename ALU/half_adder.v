@@ -17,7 +17,7 @@ output carry;
 
 reg sum,carry;
 
-always @ (i1 or i2)
+always @ (*) //Always changes when one of it's inputs change
 begin
     carry = i1 & i2; //bitwise AND
     sum = i1 ^ i2;  //bitwise XOR
